@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'popins', sans-serif
+    }
+
+    body{
+        background-color: rgb(173, 157, 157);
+        display: flex;
+        justify-content: center;    
+    align-items: center;
+min-height: 100vh;
+}
+
+.container{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+background:white;
+margin: 50px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+.container .left_side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+}
+.profile .img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    overflow: hidden;
+}
+.profile .img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profile h2{
+    color:  white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 600;
+    line-height: 1.4em;
+}
+.profile h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.cntinf{
+    margin-top: 35px;
+}
+.head{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cntinf ul{
+    position: relative;
+    
+}
+.cntinf ul li{
+    position: relative;
+    list-style: none;
+     margin: 10px 0;
+     cursor: pointer;
+}
+.cntinf ul li .icon{
+display: inline-block;
+    width: 20px;
+    font-size: 15px;
+    color: #03a9f4;
+}
+
+.cntinf ul li span{
+    color: white;
+    font-weight: 300;
+}
+.educated{
+    margin-top: 10px;
+}
+.educated li{
+margin-bottom: 15px;
+list-style: none;
+
+}
+.educated h5{
+    color: #03a9f4;
+    font-weight: 500;
+    list-style: none;
+}
+.educated h4{
+    color: white;
+    font-weight: 300;
+}
+.lng{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+.lng .percent{
+position: relative;
+width: 100%;
+height: 6px;
+background: black;
+display: block;
+margin-top: 5px;
+list-style: none;
+margin-bottom: 20px;
+}
+.lng .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    background: #03a9f4;    
+}
+.lng .text{
+    font-size: 1.2rem;
+list-style: none;
+margin-bottom: 20px;
+}
+
+
+
+.container .right_side{
+    position: relative;
+    background: #C1BCBC;
+    padding: 40px;
+    ;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.head2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.head2 .para1{
+    color: black;
+    letter-spacing: 2px;
+    
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.skills .box .percent{
+    position: relative;
+    width: 100%;
+    height: 7px;
+    background-color: white;
+}
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+.exp{
+    margin-top: 15px;
+}
+.exp h5{
+    font-size: medium;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight:bold
+}
